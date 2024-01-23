@@ -6,7 +6,7 @@ import numpy as np
 
 
 # load the model 
-model = tf.keras.models.load_model('./Model/Dog_Cat_classifier.h5')
+model = tf.keras.models.load_model('./models/Dog_Cat_classifier.h5')
 
 # Define the class labels 
 class_labels = ['Cat', 'Dog']
